@@ -1,15 +1,10 @@
+
 {
   "name": "parallel-kafka-consumer",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "Key-ordered parallel Kafka consumer for Node.js with safe offset commits",
+  "keywords": ["kafka", "consumer", "parallel", "ordering", "offset"],
   "author": "ajay kumar ch",
   "license": "MIT",
-  "type": "commonjs",
-  "private":"true"
+  "private": true
 }
-
