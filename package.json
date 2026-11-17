@@ -2,8 +2,19 @@
   "name": "parallel-kafka-consumer",
   "version": "0.0.0",
   "description": "Key-ordered parallel Kafka consumer for Node.js with safe offset commits",
-  "keywords": ["kafka", "consumer", "parallel", "ordering", "offset"],
+  "keywords": ["kafka", "kafkajs", "consumer", "parallel", "concurrency", "ordering", "offset", "commit"],
   "author": "ajay kumar ch",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chajaykumar113-art/parallel-kafka-consumer_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chajaykumar113-art/parallel-kafka-consumer_nodejs/issues"
+  },
+  "homepage": "https://github.com/chajaykumar113-art/parallel-kafka-consumer_nodejs#readme",
+  "engines": {
+    "node": ">=22"
+  }
 }
