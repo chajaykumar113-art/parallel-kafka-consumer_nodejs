@@ -27,7 +27,9 @@ try {
   console.log('ok  require (CommonJS)');
   run('node use.mjs');
   console.log('ok  import (ESM)');
-  run(`node "${tsc}" --noEmit --strict --module nodenext --moduleResolution nodenext use-esm.mts use-cjs.cts`);
+  run(
+    `node "${tsc}" --noEmit --strict --module nodenext --moduleResolution nodenext use-esm.mts use-cjs.cts`,
+  );
   console.log('ok  TypeScript types (ESM + CommonJS)');
 
   console.log(`\nSmoke test passed for ${filename}`);
