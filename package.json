@@ -56,12 +56,11 @@
     "test:coverage": "vitest run --coverage",
     "test:package": "npm run build && node test/package/smoke.mjs",
     "check:package": "publint && attw --pack .",
-    "prepublishOnly": "npm run typecheck && npm test && npm run build && npm run check:package",
+    "prepublishOnly": "npm run lint && npm run typecheck && npm test && npm run build && npm run check:package",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
-
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
