@@ -22,6 +22,6 @@
     "sourceMap": true,
     "noEmit": true
   },
-  "include": ["src", "test", "examples"],
+  "include": ["src", "test", "examples", "*.config.ts"],
   "exclude": ["test/package/fixture"]
 }
