@@ -54,6 +54,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
      "test:coverage": "vitest run --coverage",
+     "test:package": "npm run build && node test/package/smoke.mjs",
     "check:package": "publint && attw --pack .",
     "prepublishOnly": "npm run typecheck && npm test && npm run build && npm run check:package"
   },
